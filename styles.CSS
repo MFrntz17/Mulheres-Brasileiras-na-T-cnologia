@@ -1,0 +1,107 @@
+@font-face{
+    font-family: miguel;
+    src: url(./Long\ Beach\ -\ \(Demo\)\ hanscostudio.com.ttf);
+}
+
+body{
+font-family: 'Times New Roman', Times, serif;
+margin: 0%;
+padding: 0%;
+background-color: #0c56aa;
+}
+
+header{
+    background-color: #00008b;
+    color:bisque;
+    padding:  10px 0;
+    text-align:center;
+}
+
+header h1{
+    margin: 0;
+    font-family: "miguel";
+}
+
+nav ul{
+    list-style: none;
+    padding: 0%;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+main{
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+h2{
+    color: #f0ffff;
+    font-family: "Roboto", sans-serif;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td{
+    border: 1px solid #630b0b;
+    padding: 10px;
+    text-align: left;
+}
+
+figure{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 130px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label{
+    margin-top: 10px;
+}
+
+form input, form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #0000ff;
+    border-radius: 5px;
+}
+
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color:#0a19a7;
+    color:#ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+footter{
+  background-color: #00ffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
